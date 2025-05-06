@@ -112,7 +112,7 @@
             <h3 className="text-[#000022] text-2xl font-bold">BSBIO 1A</h3>
             <h3 className="text-[#000022] text-2xl font-bold"></h3>
         </div>
-        </div>
+    </div>
     );
     }
 
