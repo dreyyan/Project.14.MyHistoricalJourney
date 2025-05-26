@@ -9,6 +9,7 @@ function MuseumDetail() {
     interface MuseumItem {
       name: string;
       image: string;
+      description: string;
     }
 
     let selectedItems: MuseumItem[] = [];
@@ -26,9 +27,13 @@ function MuseumDetail() {
         {/* HORIZONTAL SCROLL */}
         <div className="flex flex-col items-center bg-[#000022] w-full h-140 overflow-y-auto scrollbar-hide border-2 pt-14">
           {selectedItems.map((item, index) => (
-            <Link key={index} to='/museum/UPV-Museum-of-Arts-and-Cultural-Heritage' className="border-2 rounded-2xl mx-12 pb-14">
-            <div className="flex flex-shrink-0 justify-center items-center bg-[url('background-UPV-MACH.jpg')] bg-cover bg-center w-180 h-80 rounded-xl backdrop-blur-sm hover:backdrop-blur-none transition-all duration-300 ease-in-out"
+            <Link
+              key={index}
+              to={`/museum/${id}/${index}`}
+              className="border-2 rounded-2xl mx-12 pb-14">
+            <div className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-180 h-80 rounded-xl backdrop-blur-sm hover:backdrop-blur-none transition-all duration-300 ease-in-out"
             style={{
+                backgroundImage: `url(${item.image})`,
                 border: '4px solid rgba(255, 255, 255, 0.2)',
                 textShadow:
                 '2px 2px 1px rgba(0, 0, 0, 0.6), -2px -2px 1px rgba(0, 0, 0, 0.6), -2px 2px 1px rgba(0, 0, 0, 0.6), 2px -2px 1px rgba(0, 0, 0, 0.6)'
@@ -40,8 +45,10 @@ function MuseumDetail() {
             onMouseLeave={(e) => {
                 // Add the blur effect back when hover ends
                 e.currentTarget.style.filter = 'blur(5px)';
-            }}
-            ><h2 className="text-[#FFFFEE] text-3xl font-bold mx-10">{item.name}</h2>
+            }}>
+              <h2 className="text-[#FFFFEE] text-3xl font-bold mx-10 text-center backdrop-blur-sm px-4 py-2 bg-black bg-opacity-50 rounded-lg">
+                {item.name}
+              </h2>
             </div>
           </Link>
           ))}
