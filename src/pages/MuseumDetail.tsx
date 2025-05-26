@@ -23,34 +23,33 @@ function MuseumDetail() {
     <div className="flex flex-col items-center justify-start h-screen bg-[#FFFFEE]">
       {/* TITLE */}
       <h1 className="text-5xl text-[#000022] font-bold mt-16 mb-16">{title}</h1>
-      <div className="flex flex-col items-center justify-start h-screen bg-[#FFFFEE]">
+      <div className="flex flex-col h-screen bg-[#FFFFEE]">
         {/* HORIZONTAL SCROLL */}
-        <div className="flex flex-col items-center bg-[#000022] w-full h-140 overflow-y-auto scrollbar-hide border-2 pt-14">
+        <div className="flex flex-wrap justify-center items-start bg-[#000022] w-260 h-180 overflow-y-auto scrollbar-hide pt-14">
           {selectedItems.map((item, index) => (
             <Link
               key={index}
               to={`/museum/${id}/${index}`}
-              className="border-2 rounded-2xl mx-12 pb-14">
-            <div className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-180 h-80 rounded-xl backdrop-blur-sm hover:backdrop-blur-none transition-all duration-300 ease-in-out"
-            style={{
-                backgroundImage: `url(${item.image})`,
-                border: '4px solid rgba(255, 255, 255, 0.2)',
-                textShadow:
-                '2px 2px 1px rgba(0, 0, 0, 0.6), -2px -2px 1px rgba(0, 0, 0, 0.6), -2px 2px 1px rgba(0, 0, 0, 0.6), 2px -2px 1px rgba(0, 0, 0, 0.6)'
-            }}
-            onMouseEnter={(e) => {
-                // Remove the blur effect on hover
-                e.currentTarget.style.filter = 'blur(0px)';
-            }}
-            onMouseLeave={(e) => {
-                // Add the blur effect back when hover ends
-                e.currentTarget.style.filter = 'blur(5px)';
-            }}>
-              <h2 className="text-[#FFFFEE] text-3xl font-bold mx-10 text-center backdrop-blur-sm px-4 py-2 bg-black bg-opacity-50 rounded-lg">
-                {item.name}
-              </h2>
-            </div>
-          </Link>
+              className="border-2 rounded-2xl w-54 h-54 pb-4">
+              <div className="flex flex-col items-center">
+                {/* LABEL */}
+                <div className="w-full px-7">
+                  <h2 className="text-[#FFFFEE] text-[12px] font-bold text-center pt-1 pb-2 rounded-lg truncate overflow-hidden whitespace-nowrap">
+                    {item.name}
+                  </h2>
+                </div>
+                {/* CARD */}
+                <div
+                  className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-40 h-40 rounded-xl filter blur-[2px] hover:blur-none transition-all duration-300 ease-in-out"
+                  style={{
+                    backgroundImage: `url(${item.image})`,
+                    border: '4px solid rgba(255, 255, 255, 0.2)',
+                    textShadow:
+                      '2px 2px 1px rgba(0, 0, 0, 0.6), -2px -2px 1px rgba(0, 0, 0, 0.6), -2px 2px 1px rgba(0, 0, 0, 0.6), 2px -2px 1px rgba(0, 0, 0, 0.6)'
+                  }}>
+                </div>
+              </div>
+            </Link>
           ))}
         </div>
       </div>
