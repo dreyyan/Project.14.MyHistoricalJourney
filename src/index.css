@@ -12,3 +12,46 @@ body {
 .scrollbar-hide {
     scrollbar-width: none;
 }
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(0) scale(1);
+    transform-origin: 50% 50%;
+  }
+  100% {
+    transform: translateY(-50px) scale(2);
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+
+/* In your CSS or index.css */
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
