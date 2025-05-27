@@ -1,7 +1,7 @@
 const UPVItems = [
     {
         name: 'Background',
-        image: '/question-mark.webp',
+        image: '/question-mark1.webp',
         description: 'This is the front of the UPV MACH, located in the old Iloilo City Hall. The building has a classic, old-school look with big columns and arched windows—designed by famous architect Juan Arellano. Now part of UP Visayas, it’s a cool mix of history and art that really sets the vibe before you even step inside.'
     },
     {

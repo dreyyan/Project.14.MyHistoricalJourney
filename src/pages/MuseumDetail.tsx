@@ -31,16 +31,23 @@ function MuseumDetail() {
     }
 
   return (
-    <div className="flex flex-col items-center justify-start h-screen bg-[url('/background-map.jpg')]">
+    <div className="flex flex-col items-center justify-start h-screen">
       {/* TITLE */}
-      <h1 className="z-2 text-6xl font-bold mt-16 mb-16" style={{ color: colors.color5 }}>{title}</h1>
-      <div className="flex flex-col h-screen">
-        {/* Background image layer with opacity */}
-        <div className="z-0 absolute inset-0 bg-[#7D4F38] bg-cover bg-center opacity-70"></div>
+      <h1 className="z-2 text-6xl font-bold mt-16" style={{
+        color: colors.color5,
+        textShadow: '0 0 2px #7D4F38, 0 0 4px #7D4F38', // black outline
+        }}>{title}</h1>
+        <div className="flex justify-center items-center w-400 h-screen">
+        {/* Blurred background layer */}
+        <div
+          className="z-0 absolute inset-0 bg-cover bg-center opacity-70 blur-md rounded-2xl"
+          style={{
+            backgroundImage: `url('${backgroundImage}')`,
+          }}></div>
         {/* HORIZONTAL SCROLL */}
-        <div className="z-1 flex flex-wrap justify-center items-start w-260 h-180 overflow-y-auto scrollbar-hide pt-14"
+        <div className="relative rounded-2xl z-1 flex flex-wrap justify-center items-start w-240 h-180 overflow-y-auto scrollbar-hide pt-14 pb-10"
         style={{
-        backgroundImage: `url('${backgroundImage}')`,
+        backgroundImage: "url('/background-history.avif')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -53,13 +60,16 @@ function MuseumDetail() {
               <div className="flex flex-col items-center">
                 {/* LABEL */}
                 <div className="w-full px-7">
-                  <h2 className="text-[#FFFFEE] text-[12px] font-bold text-center pt-1 pb-2 rounded-lg truncate overflow-hidden whitespace-nowrap">
+                  <h2 className="text-[#FFFFEE] text-[16px] font-bold text-center pt-1 pb-2 rounded-lg truncate overflow-hidden whitespace-nowrap"
+                    style={{
+                    textShadow: '0 0 2px #7D4F38, 0 0 4px #7D4F38', // black outline
+                    }}>
                     {item.name}
                   </h2>
                 </div>
                 {/* CARD */}
                 <div
-                  className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-40 h-40 rounded-xl filter blur-[1px] hover:blur-none transition-all duration-300 ease-in-out"
+                  className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-40 h-40 rounded-xl filter blur-[3px] hover:blur-none transition-all duration-800 ease-in-out"
                   style={{
                     backgroundImage: `url(${item.image})`,
                     border: '4px solid rgba(255, 255, 255, 1)',
