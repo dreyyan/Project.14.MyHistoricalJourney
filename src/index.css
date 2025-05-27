@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #7D4F38;
+}
+
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
 
 .scrollbar-hide {
     scrollbar-width: none;
-}
-
-body {
-    background-color: #7D4F38;
 }

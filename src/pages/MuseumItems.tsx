@@ -1,7 +1,7 @@
 const UPVItems = [
     {
         name: 'Background',
-        image: '/background-UPV-MACH.jpg',
+        image: '/question-mark.webp',
         description: 'This is the front of the UPV MACH, located in the old Iloilo City Hall. The building has a classic, old-school look with big columns and arched windows—designed by famous architect Juan Arellano. Now part of UP Visayas, it’s a cool mix of history and art that really sets the vibe before you even step inside.'
     },
     {
@@ -179,7 +179,7 @@ const UPVItems = [
 const PMEHItems = [
     {
         name: 'Background',
-        image: '/background-PMEH.jpg',
+        image: '/question-mark.webp',
         description: 'Walking through the doors of the building felt like stepping into another era. The high ceilings and restored details hinted at the wealth of stories inside — stories of trade, labor, and everyday Filipinos shaping the economy long before I was born. It wasn’t just a museum; it felt like a quiet conversation with history, inviting me to listen.'
     },
     {
