@@ -190,12 +190,12 @@ const PMEHItems = [
     {
         name: 'Chests Used in Galleon',
         image: '/chests-used-in-galleon.jpg',
-        description: '/'
+        description: '/These sturdy chests journeyed across oceans aboard the galleons, safeguarding precious cargo like spices, silk, and gold. They symbolize the risks and rewards of early global trade, carrying not just goods but the hopes and dreams of those connected by the Manila-Acapulco trade route.'
     },
     {
         name: 'Treasures from China',
         image: '/treasures-from-china.jpg',
-        description: '/'
+        description: '/Inside these chests were prized items like delicate fans, lustrous pearl necklaces, rosaries, and intricate bracelets — gifts and goods that traveled thousands of miles. '
     },
     {
         name: 'Porcelains',
@@ -303,7 +303,7 @@ const MPMHItems = [
     {
         name: 'Thomasites',
         image: '/thomasites.jpg',
-        description: '/'
+        description: '/The Thomasites arrived in the Philippines in 1901 aboard the USAT Thomas, bringing with them a mission to establish a public school system under American rule. As the first group of American teachers, they introduced English as the medium of instruction and helped lay the foundations of the modern Philippine education system. '
     },
     {
         name: 'Future Meets the Past',
