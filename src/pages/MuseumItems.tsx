@@ -207,7 +207,7 @@ const PMEHItems = [
         image: '/signal-cannon.jpg',
         description: 'Once stationed at Iloilo’s old port, this signal cannon played a crucial role in alerting the community of incoming ships or potential threats. Long before radios and phones, its booming sound was the town’s way of staying connected and prepared.'
     },
-        {
+    {
         name: 'Train Plate',
         image: '/train-plate.jpg',
         description: 'This train plate is a small but powerful reminder of the era when railroads connected Iloilo to the rest of Panay Island. Trains carried people, goods, and stories—fueling growth and linking communities across the region.'
