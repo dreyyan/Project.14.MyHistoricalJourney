@@ -1,7 +1,7 @@
 const UPVItems = [
     {
         name: 'Background',
-        image: '/question-mark1.webp',
+        image: '/background-UPV-MACH.jpg',
         description: 'This is the front of the UPV MACH, located in the old Iloilo City Hall. The building has a classic, old-school look with big columns and arched windows—designed by famous architect Juan Arellano. Now part of UP Visayas, it’s a cool mix of history and art that really sets the vibe before you even step inside.'
     },
     {
@@ -95,11 +95,6 @@ const UPVItems = [
         description: 'Long before machines, the araro—a wooden plow with an iron blade—was the farmer’s trusted tool, pulled by carabao and guided by hand. More than an implement, it’s a symbol of Filipino resilience and ancestral wisdom, carving not just soil, but a heritage of labor, patience, and deep respect for the land.'
     },
     {
-        name: '???',
-        image: '/',
-        description: '/'
-    },
-    {
         name: 'Kararaw',
         image: '/kararaw.jpg',
         description: 'This traditional tool shows the cleverness woven into everyday life. Used to separate debris from rice grains, the Kararaw reflects how simple yet effective design helps Filipino farmers with their harvest.'
@@ -126,7 +121,7 @@ const UPVItems = [
     },
     {
         name: 'Unearthed Secrets of the Gigantes Islands',
-        image: '/',
+        image: '/unearthed-secrets-of-the-gigantes-islands.jpg',
         description: 'Pottery from as early as 500 BCE reveals the rich history of Isla de Gigantes Norte—vessels once used as offerings in burial rituals, showcasing delicate craftsmanship and mysterious designs. These ancient artifacts connect us to early settlers and their beliefs about life, death, and the afterlife, preserving stories buried deep beneath the islands’ stunning shores.'
     },
     {
@@ -179,7 +174,7 @@ const UPVItems = [
 const PMEHItems = [
     {
         name: 'Background',
-        image: '/question-mark.webp',
+        image: '/background-PMEH.jpg',
         description: 'Walking through the doors of the building felt like stepping into another era. The high ceilings and restored details hinted at the wealth of stories inside — stories of trade, labor, and everyday Filipinos shaping the economy long before I was born. It wasn’t just a museum; it felt like a quiet conversation with history, inviting me to listen.'
     },
     {
@@ -203,6 +198,11 @@ const PMEHItems = [
         description: '/'
     },
     {
+        name: 'Porcelains',
+        image: '/porcelains.jpg',
+        description: '/Slightly bigger than a thumb, this delicate porcelain bowl traveled all the way from China aboard the Manila Galleon. A small but powerful reminder of centuries-old trade and cultural connections across the seas.'
+    },
+    {
         name: 'Signal Cannon',
         image: '/signal-cannon.jpg',
         description: 'Once stationed at Iloilo’s old port, this signal cannon played a crucial role in alerting the community of incoming ships or potential threats. Long before radios and phones, its booming sound was the town’s way of staying connected and prepared.'
@@ -223,6 +223,11 @@ const PMEHItems = [
         description: 'Behold the world’s largest banknote—the 100,000 Philippine Peso commemorative note displayed at the Museum of Philippine Economic History in Iloilo City. Issued in 1998 to mark the centennial of Philippine Independence, this massive legal tender features iconic scenes from the nation’s fight for freedom and holds a Guinness World Record for its size. A rare collector’s masterpiece that honors the enduring spirit of Filipino independence.'
     },
     {
+        name: 'Titulo',
+        image: '/the-philippine-100000-peso-centennial-banknote.jpg',
+        description: 'An old land title from the Spanish colonial era—simple, handwritten, and in Spanish. It reveals how property ownership was documented centuries ago, a far cry from the detailed and digital records we use today.'
+    },
+    {
         name: 'Banaue Rice Terraces',
         image: '/banaue-rice-terraces.jpg',
         description: 'Carved by the Ifugao people over 2,000 years ago, these terraces are a breathtaking testament to human ingenuity and harmony with nature. They showcase sustainable farming techniques passed down through generations, symbolizing the deep connection between culture, land, and survival.'
@@ -231,6 +236,11 @@ const PMEHItems = [
         name: 'Sinaunang Plantsa',
         image: '/sinaunang-plantsa.jpg',
         description: 'Before electric irons, this heavy iron was heated over fire or coals to smooth out wrinkles. It’s a humble reminder of everyday life in the past — where simple tools demanded patience and effort, yet kept clothes crisp and ready for the day.'
+    },
+    {
+        name: 'Paynetas',
+        image: '/paynetas.jpg',
+        description: 'These exquisite paynetas, adorned with real gold, showcase the artistry and elegance of traditional Filipino craftsmanship. More than just accessories, they are symbols of culture, status, and heritage passed down through generations.'
     },
     {
         name: 'Aguinaldo Tobacco Box',
@@ -252,9 +262,19 @@ const PMEHItems = [
         image: '/coconut-shells.jpg',
         description: 'Copra is the dried meat of the coconut, a crucial product that fueled the Philippines’ coconut oil industry. It became a key export, supporting many livelihoods and connecting local farmers to global markets.'
     },
+    {
+        name: 'Takeaways',
+        image: '/takeaways-pmeh.jpg',
+        description: 'Standing at the gateway to the nation’s economic past—our class at the Museum of Philippine Economic History in Iloilo. From trade routes to local industries, we walked through stories of growth, struggle, and resilience that shaped the Filipino economy through time.'
+    },
 ];
 
 const MPMHItems = [
+    {
+        name: 'GenZ Deckhand',
+        image: '/genz-deckhand.jpg',
+        description: 'The museum is designed like a real Galleon. So, this is me pretending I am a deckhand of the ship. Got so tired, I needed to lean...'
+    },
     {
         name: 'Balangay',
         image: '/balangay.jpg',
@@ -273,25 +293,45 @@ const MPMHItems = [
     {
         name: 'Admiral Dewey\'s Victory',
         image: '/admiral-deweys-victory.jpg',
-        description: '/'
+        description: '/Admiral George Dewey’s decisive victory at the Battle of Manila Bay on May 1, 1898, marked a turning point in the Spanish-American War. With superior naval power and strategy, the U.S. Asiatic Squadron destroyed the Spanish fleet without losing a single American life. This event signaled the end of Spanish colonial rule in the Philippines and the beginning of American occupation—a complex chapter in Philippine history that reshaped the nation’s future.'
     },
     {
         name: 'The Conquest of the United States of America',
-        image: '/',
-        description: '/the-conquest-of-the-united-states-of-america.jpg'
+        image: '/the-conquest-of-the-united-states-of-america.jpg',
+        description: '/A painted echo of ambition, resistance, and reckoning—the conquest of the United States laid bare in brushstrokes. This canvas doesn’t just depict history; it questions it. Whose land? Whose story?'
+    },
+    {
+        name: 'Thomasites',
+        image: '/thomasites.jpg',
+        description: '/'
+    },
+    {
+        name: 'Future Meets the Past',
+        image: '/future-meets-the-past.jpg',
+        description: '/Beside the portrait of Leon Apacible—lawyer, patriot, and revolutionary—my classmate, Enrique, bears an uncanny resemblance, as if history left behind a twin. Whether it’s fate or just good angles, the past seems closer than ever.'
     },
     {
         name: 'Soul Sailing Sole',
         image: '/soul-sailing-sole.jpg',
-        description: '/'
+        description: '/Sole Sailing Soul’ captures the spirit of Iloilo’s seafarers—men and women whose journeys shaped our maritime heritage. Their soles, now transformed into boats with sails, speak of footsteps turned to voyages, and lives carried across oceans. Each sail bears a face, a story, a soul that sailed not just the seas, but history itself.'
+    },
+    {
+        name: 'Takeaways',
+        image: '/takeaways-mpmh.jpg',
+        description: 'Anchored in history, sailing toward the future. Our visit to the maritime museum—where soles became sails and stories took flight—reminds us that every journey begins with a single step, and sometimes, that step leaves a legacy across oceans.'
     },
 ];
 
 const NMPItems = [
     {
-        name: '???',
-        image: '/',
-        description: '/'
+        name: 'Molo Church by Cristhom “Dodoy” Selibio Setubal',
+        image: '/molo-church-by-cristhom-dodoy-selibio-setubal.jpg',
+        description: '/This is one of the artworks under Iglesia, a mixed media exhibition by the Ilonggo artist Cristhom Selibio Setubal. He reimagines Iloilo’s iconic heritage churches using upcycled materials. Not only sustainable, but also serves as a reminder to preserve our cultural heritage.'
+    },
+    {
+        name: 'Rocks',
+        image: '/rocks.jpg',
+        description: '/From the highlands of Antique to the coastal plains of Iloilo, these rocks tell the geologic story of Western Visayas. Each specimen—igneous, sedimentary, or metamorphic—holds clues to ancient volcanoes, shifting seas, and the passage of deep time. More than stones, they are time capsules of the region’s natural history, shaped by earth, fire, and water. Totally rocks!'
     },
     {
         name: 'Molar of Ancient Elephant of Panay',
@@ -301,22 +341,22 @@ const NMPItems = [
     {
         name: 'Mudskippers',
         image: '/mudskippers.jpg',
-        description: '/'
+        description: '/Who knew mudskippers could be this adorable? These little guys may be stuck in time, but their charm is definitely still hopping around the museum! a.k.a my favorite thing to have looked at'
     },
     {
         name: 'Dugong',
         image: '/dugong.jpg',
-        description: '/'
+        description: '/The majestic dugong, the gentle sea cow of our waters, laid bare in bone—a silent reminder of the ocean’s wonders and the need to protect these graceful creatures.'
     },
     {
         name: 'Stone Tools',
         image: '/stone-tools.jpg',
-        description: '/'
+        description: '/These are stones and bones of animals found in different parts of Panay. This shows the early innovations and intelligence that took place in our region '
     },
     {
-        name: '???',
-        image: '/',
-        description: '/'
+        name: 'Burial Jar',
+        image: '/burial-jar.jpg',
+        description: '/More than vessels of clay, these burial jars held lives, memories, and beliefs about the afterlife. Used in ancient burial practices, they reflect the deep spirituality and rich funerary traditions of early Filipino communities—where even in death, there was dignity, ritual, and reverence.'
     },
     {
         name: 'Oton Death Mask',
@@ -326,7 +366,17 @@ const NMPItems = [
     {
         name: 'Ceramics from the Arevalo Shipwreck',
         image: '/ceramics-from-the-arevalo-shipwreck.jpg',
-        description: '/'
+        description: '/Recovered from the depths off Arevalo, these centuries-old ceramics offer a glimpse into Iloilo’s role in maritime trade. Once part of a ship’s precious cargo, these vessels—delicate yet enduring—speak of cultural exchange, craftsmanship, and the untold stories that sank with the waves but rose again through archaeology.'
+    },
+    {
+        name: 'Vestida',
+        image: '/vestida.jpg',
+        description: '/This simple dress carries more than fabric—it carries history. Hand-embroidered with care, its designs speak of tradition, patience, and the quiet artistry passed down through generations. A timeless reminder that beauty often lies in the details we stitch by hand, and the stories we wear without words.'
+    },
+    {
+        name: 'Takeaways',
+        image: '/takeaways-nmp.jpg',
+        description: 'A journey through time, culture, and identity—wrapped up in one unforgettable visit. After exploring the rich heritage inside the National Museum of the Philippines in Iloilo, we carry home more than memories—we carry stories, pride, and a deeper sense of who we are.'
     },
 ];
 
