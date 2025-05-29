@@ -224,7 +224,7 @@ const PMEHItems = [
     },
     {
         name: 'Titulo',
-        image: '/the-philippine-100000-peso-centennial-banknote.jpg',
+        image: '/titulo.jpg',
         description: 'An old land title from the Spanish colonial era—simple, handwritten, and in Spanish. It reveals how property ownership was documented centuries ago, a far cry from the detailed and digital records we use today.'
     },
     {
