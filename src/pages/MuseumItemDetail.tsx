@@ -39,14 +39,14 @@ function MuseumItemDetail() {
           backgroundRepeat: 'no-repeat'
         }}></div>
       {/* TITLE */}
-      <h1 className="z-2 text-6xl font-bold mt-8 mb-10 tracking-wide" style={{
+      <h1 className="z-2 text-4xl font-bold mt-8 mb-10 tracking-wide" style={{
         color: colors.color5,
         textShadow: '0 0 2px #7D4F38, 0 0 4px #7D4F38', // black outline
         animation: 'tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1.000) both',
         }}>{item.name}</h1>
-      <img src={item.image} alt={item.name} className="z-1 w-full max-w-md max-h-[480px] border-4 border-[#D09B69] rounded-xl mb-4" />
+      <img src={item.image} alt={item.name} className="z-1 w-auto h-[340px] border-4 border-[#D09B69] rounded-xl mb-4" />
       <div className="flex flex-col items-center justify-start">
-        <p className="z-2 text-2xl font-bold mt-4 mb-14 mx-120 text-justify text-focus-in" style={{
+        <p className="z-2 text-2xl font-bold mt-4 mb-14 mx-40 text-justify text-focus-in" style={{
         color: '#FFFFFF',
         textShadow: '0 0 2px #7D4F38, 0 0 4px #7D4F38', // black outline
         }}>{item.description}</p>

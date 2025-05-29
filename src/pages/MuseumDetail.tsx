@@ -33,7 +33,7 @@ function MuseumDetail() {
   return (
     <div className="flex flex-col items-center justify-start h-screen">
       {/* TITLE */}
-      <h1 className="z-2 text-6xl font-bold mt-16 tracking-wide" style={{
+      <h1 className="z-2 text-5xl font-bold mt-16 tracking-wide" style={{
         color: colors.color5,
         textShadow: '0 0 2px #7D4F38, 0 0 4px #7D4F38', // black outline
         animation: 'tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1.000) both',
@@ -46,7 +46,7 @@ function MuseumDetail() {
             backgroundImage: `url('${backgroundImage}')`,
           }}></div>
         {/* HORIZONTAL SCROLL */}
-        <div className="relative rounded-2xl z-1 flex flex-wrap justify-center items-start w-240 h-180 overflow-y-auto scrollbar-hide pt-18 pb-10"
+        <div className="relative rounded-2xl z-1 flex flex-wrap justify-center items-start w-240 h-150 overflow-y-auto scrollbar-hide pt-20 pb-20"
         style={{
         backgroundImage: "url('/background-history.avif')",
         backgroundSize: 'cover',
@@ -59,7 +59,7 @@ function MuseumDetail() {
             <Link
               key={index}
               to={`/museum/${id}/${index}`}
-              className="rounded-2xl w-54 h-54 pb-4">
+              className="rounded-2xl w-42 h-42 pb-4">
               <div className="flex flex-col items-center">
                 {/* LABEL */}
                 <div className="w-full px-7">
@@ -72,7 +72,7 @@ function MuseumDetail() {
                 </div>
                 {/* CARD */}
                 <div
-                  className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-40 h-40 rounded-xl filter blur-[1px] hover:blur-none transition-all duration-800 ease-in-out"
+                  className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-34 h-34 rounded-xl"
                   style={{
                     backgroundImage: `url(${item.image})`,
                     border: '4px solid rgba(255, 255, 255, 1)',
