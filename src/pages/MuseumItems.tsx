@@ -190,17 +190,17 @@ const PMEHItems = [
     {
         name: 'Chests Used in Galleon',
         image: '/chests-used-in-galleon.jpg',
-        description: '/These sturdy chests journeyed across oceans aboard the galleons, safeguarding precious cargo like spices, silk, and gold. They symbolize the risks and rewards of early global trade, carrying not just goods but the hopes and dreams of those connected by the Manila-Acapulco trade route.'
+        description: 'These sturdy chests journeyed across oceans aboard the galleons, safeguarding precious cargo like spices, silk, and gold. They symbolize the risks and rewards of early global trade, carrying not just goods but the hopes and dreams of those connected by the Manila-Acapulco trade route.'
     },
     {
         name: 'Treasures from China',
         image: '/treasures-from-china.jpg',
-        description: '/Inside these chests were prized items like delicate fans, lustrous pearl necklaces, rosaries, and intricate bracelets — gifts and goods that traveled thousands of miles. '
+        description: 'Inside these chests were prized items like delicate fans, lustrous pearl necklaces, rosaries, and intricate bracelets — gifts and goods that traveled thousands of miles. '
     },
     {
         name: 'Porcelains',
         image: '/porcelains.jpg',
-        description: '/Slightly bigger than a thumb, this delicate porcelain bowl traveled all the way from China aboard the Manila Galleon. A small but powerful reminder of centuries-old trade and cultural connections across the seas.'
+        description: 'Slightly bigger than a thumb, this delicate porcelain bowl traveled all the way from China aboard the Manila Galleon. A small but powerful reminder of centuries-old trade and cultural connections across the seas.'
     },
     {
         name: 'Signal Cannon',
@@ -293,27 +293,27 @@ const MPMHItems = [
     {
         name: 'Admiral Dewey\'s Victory',
         image: '/admiral-deweys-victory.jpg',
-        description: '/Admiral George Dewey’s decisive victory at the Battle of Manila Bay on May 1, 1898, marked a turning point in the Spanish-American War. With superior naval power and strategy, the U.S. Asiatic Squadron destroyed the Spanish fleet without losing a single American life. This event signaled the end of Spanish colonial rule in the Philippines and the beginning of American occupation—a complex chapter in Philippine history that reshaped the nation’s future.'
+        description: 'Admiral George Dewey’s decisive victory at the Battle of Manila Bay on May 1, 1898, marked a turning point in the Spanish-American War. With superior naval power and strategy, the U.S. Asiatic Squadron destroyed the Spanish fleet without losing a single American life. This event signaled the end of Spanish colonial rule in the Philippines and the beginning of American occupation—a complex chapter in Philippine history that reshaped the nation’s future.'
     },
     {
         name: 'The Conquest of the United States of America',
         image: '/the-conquest-of-the-united-states-of-america.jpg',
-        description: '/A painted echo of ambition, resistance, and reckoning—the conquest of the United States laid bare in brushstrokes. This canvas doesn’t just depict history; it questions it. Whose land? Whose story?'
+        description: 'A painted echo of ambition, resistance, and reckoning—the conquest of the United States laid bare in brushstrokes. This canvas doesn’t just depict history; it questions it. Whose land? Whose story?'
     },
     {
         name: 'Thomasites',
         image: '/thomasites.jpg',
-        description: '/The Thomasites arrived in the Philippines in 1901 aboard the USAT Thomas, bringing with them a mission to establish a public school system under American rule. As the first group of American teachers, they introduced English as the medium of instruction and helped lay the foundations of the modern Philippine education system. '
+        description: 'The Thomasites arrived in the Philippines in 1901 aboard the USAT Thomas, bringing with them a mission to establish a public school system under American rule. As the first group of American teachers, they introduced English as the medium of instruction and helped lay the foundations of the modern Philippine education system. '
     },
     {
         name: 'Future Meets the Past',
         image: '/future-meets-the-past.jpg',
-        description: '/Beside the portrait of Leon Apacible—lawyer, patriot, and revolutionary—my classmate, Enrique, bears an uncanny resemblance, as if history left behind a twin. Whether it’s fate or just good angles, the past seems closer than ever.'
+        description: 'Beside the portrait of Leon Apacible—lawyer, patriot, and revolutionary—my classmate, Enrique, bears an uncanny resemblance, as if history left behind a twin. Whether it’s fate or just good angles, the past seems closer than ever.'
     },
     {
         name: 'Soul Sailing Sole',
         image: '/soul-sailing-sole.jpg',
-        description: '/Sole Sailing Soul’ captures the spirit of Iloilo’s seafarers—men and women whose journeys shaped our maritime heritage. Their soles, now transformed into boats with sails, speak of footsteps turned to voyages, and lives carried across oceans. Each sail bears a face, a story, a soul that sailed not just the seas, but history itself.'
+        description: 'Sole Sailing Soul’ captures the spirit of Iloilo’s seafarers—men and women whose journeys shaped our maritime heritage. Their soles, now transformed into boats with sails, speak of footsteps turned to voyages, and lives carried across oceans. Each sail bears a face, a story, a soul that sailed not just the seas, but history itself.'
     },
     {
         name: 'Takeaways',
@@ -326,12 +326,12 @@ const NMPItems = [
     {
         name: 'Molo Church by Cristhom “Dodoy” Selibio Setubal',
         image: '/molo-church-by-cristhom-dodoy-selibio-setubal.jpg',
-        description: '/This is one of the artworks under Iglesia, a mixed media exhibition by the Ilonggo artist Cristhom Selibio Setubal. He reimagines Iloilo’s iconic heritage churches using upcycled materials. Not only sustainable, but also serves as a reminder to preserve our cultural heritage.'
+        description: 'This is one of the artworks under Iglesia, a mixed media exhibition by the Ilonggo artist Cristhom Selibio Setubal. He reimagines Iloilo’s iconic heritage churches using upcycled materials. Not only sustainable, but also serves as a reminder to preserve our cultural heritage.'
     },
     {
         name: 'Rocks',
         image: '/rocks.jpg',
-        description: '/From the highlands of Antique to the coastal plains of Iloilo, these rocks tell the geologic story of Western Visayas. Each specimen—igneous, sedimentary, or metamorphic—holds clues to ancient volcanoes, shifting seas, and the passage of deep time. More than stones, they are time capsules of the region’s natural history, shaped by earth, fire, and water. Totally rocks!'
+        description: 'From the highlands of Antique to the coastal plains of Iloilo, these rocks tell the geologic story of Western Visayas. Each specimen—igneous, sedimentary, or metamorphic—holds clues to ancient volcanoes, shifting seas, and the passage of deep time. More than stones, they are time capsules of the region’s natural history, shaped by earth, fire, and water. Totally rocks!'
     },
     {
         name: 'Molar of Ancient Elephant of Panay',
@@ -341,22 +341,22 @@ const NMPItems = [
     {
         name: 'Mudskippers',
         image: '/mudskippers.jpg',
-        description: '/Who knew mudskippers could be this adorable? These little guys may be stuck in time, but their charm is definitely still hopping around the museum! a.k.a my favorite thing to have looked at'
+        description: 'Who knew mudskippers could be this adorable? These little guys may be stuck in time, but their charm is definitely still hopping around the museum! a.k.a my favorite thing to have looked at'
     },
     {
         name: 'Dugong',
         image: '/dugong.jpg',
-        description: '/The majestic dugong, the gentle sea cow of our waters, laid bare in bone—a silent reminder of the ocean’s wonders and the need to protect these graceful creatures.'
+        description: 'The majestic dugong, the gentle sea cow of our waters, laid bare in bone—a silent reminder of the ocean’s wonders and the need to protect these graceful creatures.'
     },
     {
         name: 'Stone Tools',
         image: '/stone-tools.jpg',
-        description: '/These are stones and bones of animals found in different parts of Panay. This shows the early innovations and intelligence that took place in our region '
+        description: 'These are stones and bones of animals found in different parts of Panay. This shows the early innovations and intelligence that took place in our region '
     },
     {
         name: 'Burial Jar',
         image: '/burial-jar.jpg',
-        description: '/More than vessels of clay, these burial jars held lives, memories, and beliefs about the afterlife. Used in ancient burial practices, they reflect the deep spirituality and rich funerary traditions of early Filipino communities—where even in death, there was dignity, ritual, and reverence.'
+        description: 'More than vessels of clay, these burial jars held lives, memories, and beliefs about the afterlife. Used in ancient burial practices, they reflect the deep spirituality and rich funerary traditions of early Filipino communities—where even in death, there was dignity, ritual, and reverence.'
     },
     {
         name: 'Oton Death Mask',
@@ -366,12 +366,12 @@ const NMPItems = [
     {
         name: 'Ceramics from the Arevalo Shipwreck',
         image: '/ceramics-from-the-arevalo-shipwreck.jpg',
-        description: '/Recovered from the depths off Arevalo, these centuries-old ceramics offer a glimpse into Iloilo’s role in maritime trade. Once part of a ship’s precious cargo, these vessels—delicate yet enduring—speak of cultural exchange, craftsmanship, and the untold stories that sank with the waves but rose again through archaeology.'
+        description: 'Recovered from the depths off Arevalo, these centuries-old ceramics offer a glimpse into Iloilo’s role in maritime trade. Once part of a ship’s precious cargo, these vessels—delicate yet enduring—speak of cultural exchange, craftsmanship, and the untold stories that sank with the waves but rose again through archaeology.'
     },
     {
         name: 'Vestida',
         image: '/vestida.jpg',
-        description: '/This simple dress carries more than fabric—it carries history. Hand-embroidered with care, its designs speak of tradition, patience, and the quiet artistry passed down through generations. A timeless reminder that beauty often lies in the details we stitch by hand, and the stories we wear without words.'
+        description: 'This simple dress carries more than fabric—it carries history. Hand-embroidered with care, its designs speak of tradition, patience, and the quiet artistry passed down through generations. A timeless reminder that beauty often lies in the details we stitch by hand, and the stories we wear without words.'
     },
     {
         name: 'Takeaways',
