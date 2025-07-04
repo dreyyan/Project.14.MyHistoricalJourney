@@ -74,7 +74,7 @@ function MuseumDetail() {
                 <div
                   className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-34 h-34 rounded-xl"
                   style={{
-                    backgroundImage: `url(${item.image})`,
+                    backgroundImage: `url(Project.14.MyHistoricalJourney/${item.image})`,
                     border: '4px solid rgba(255, 255, 255, 1)',
                     textShadow:
                       '2px 2px 1px rgba(0, 0, 0, 0.6), -2px -2px 1px rgba(0, 0, 0, 0.6), -2px 2px 1px rgba(0, 0, 0, 0.6), 2px -2px 1px rgba(0, 0, 0, 0.6)'
