@@ -18,16 +18,16 @@ function MuseumDetail() {
 
     if (id === 'UPV-Museum-of-Arts-and-Cultural-Heritage') {
       selectedItems = UPVItems;
-      backgroundImage = '/background-UPV-MACH.jpg';
+      backgroundImage = 'background-UPV-MACH.jpg';
     } else if (id === 'Philippine-Museum-of-Economic-History') {
       selectedItems = PMEHItems;
-      backgroundImage = '/background-PMEH.jpg';
+      backgroundImage = 'background-PMEH.jpg';
     } else if (id === 'Museum-of-Philippine-Maritime-History') {
       selectedItems = MPMHItems;
-      backgroundImage = '/background-MPMH.jpg';
+      backgroundImage = 'background-MPMH.jpg';
     } else if (id === 'National-Museum-of-the-Philippines-Iloilo') {
       selectedItems = NMPItems;
-      backgroundImage = '/background-NMP.jpeg';
+      backgroundImage = 'background-NMP.jpeg';
     }
 
   return (
@@ -43,12 +43,12 @@ function MuseumDetail() {
         <div
           className="z-0 absolute inset-0 bg-cover bg-center opacity-70 blur-md rounded-2xl"
           style={{
-            backgroundImage: `url('${backgroundImage}')`,
+            backgroundImage: `url('/Project.14.MyHistoricalJourney/${backgroundImage}')`,
           }}></div>
         {/* HORIZONTAL SCROLL */}
         <div className="relative rounded-2xl z-1 flex flex-wrap justify-center items-start w-240 h-150 overflow-y-auto scrollbar-hide pt-20 pb-20"
         style={{
-        backgroundImage: "url('/background-history.avif')",
+        backgroundImage: "url('/Project.14.MyHistoricalJourney/background-history.avif')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -74,7 +74,7 @@ function MuseumDetail() {
                 <div
                   className="flex flex-shrink-0 justify-center items-center bg-cover bg-center w-34 h-34 rounded-xl"
                   style={{
-                    backgroundImage: `url(${item.image})`,
+                    backgroundImage: `url(/Project.14.MyHistoricalJourney/${item.image})`,
                     border: '4px solid rgba(255, 255, 255, 1)',
                     textShadow:
                       '2px 2px 1px rgba(0, 0, 0, 0.6), -2px -2px 1px rgba(0, 0, 0, 0.6), -2px 2px 1px rgba(0, 0, 0, 0.6), 2px -2px 1px rgba(0, 0, 0, 0.6)'

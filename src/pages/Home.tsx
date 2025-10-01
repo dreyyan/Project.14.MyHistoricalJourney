@@ -24,7 +24,7 @@
         {/* Top Border */}
         <div className="bg-[#693d27] w-full h-16 z-20 border-b-6 border-[#AD7954]"/>
         {/* Background image layer with opacity */}
-        <div className="absolute inset-0 bg-[url('background-map.jpg')] bg-cover bg-center opacity-10 z-0"
+        <div className="absolute inset-0 bg-[url('/Project.14.MyHistoricalJourney/background-map.jpg')] bg-cover bg-center opacity-10 z-0"
         style={{
             animation: 'kenburns-top 2s ease-in-out both',
         }}></div>
@@ -40,7 +40,7 @@
             <div className="flex flex-col items-center">
                 <h2 className="text-3xl font-bold mb-6" style={{ color: "rgb(255, 239, 218)" }}>UPV Museum of Arts and Cultural Heritage</h2>
                 <Link to='/museum/UPV-Museum-of-Arts-and-Cultural-Heritage' className="border-x-4 border-y-4" style={{ borderColor: colors.color3 }}>
-                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('background-UPV-MACH.jpg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-int"
+                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('/Project.14.MyHistoricalJourney/background-UPV-MACH.jpg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-int"
                     style={{
                         border: '4px solid RGBA(247,223,127,0.8)',
                         textShadow:
@@ -56,7 +56,7 @@
             <div className="flex flex-col items-center">
                 <h2 className="text-3xl font-bold mb-6" style={{ color: "rgb(255, 239, 218)" }}>Philippine Museum of Economic History</h2>
                 <Link to='/museum/Philippine-Museum-of-Economic-History' className="border-x-2 border-y-4" style={{ borderColor: colors.color3 }}>
-                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('background-PMEH.jpg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-in"
+                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('/Project.14.MyHistoricalJourney/background-PMEH.jpg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-in"
                         style={{
                         border: '4px solid RGBA(247,223,127,0.8)',
                         textShadow:
@@ -72,7 +72,7 @@
             <div className="flex flex-col items-center">
                 <h2 className="text-3xl font-bold mb-6" style={{ color: "rgb(255, 239, 218)" }}>Museum of Philippine Maritime History</h2>
                 <Link to='/museum/Museum-of-Philippine-Maritime-History' className="border-x-2 border-y-4" style={{ borderColor: colors.color3 }}>
-                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('background-MPMH.jpg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-in"
+                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('/Project.14.MyHistoricalJourney/background-MPMH.jpg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-in"
                         style={{
                         border: '4px solid RGBA(247,223,127,0.8)',
                         textShadow:
@@ -88,7 +88,7 @@
             <div className="flex flex-col items-center">
                 <h2 className="text-3xl font-bold mb-6" style={{ color: "rgb(255, 239, 218)" }}>National Museum of the Philippines - Iloilo</h2>
                 <Link to='/museum/National-Museum-of-the-Philippines-Iloilo' className="border-x-4 border-y-4" style={{ borderColor: colors.color3 }}>
-                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('background-NMP.jpeg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-in"
+                    <div className="relative flex flex-shrink-0 justify-center items-center bg-[url('/Project.14.MyHistoricalJourney/background-NMP.jpeg')] bg-cover bg-center w-160 h-74 filter blur-md hover:blur-none transition-all duration-300 ease-in"
                         style={{
                         border: '4px solid RGBA(247,223,127,0.8)',
                         textShadow:
